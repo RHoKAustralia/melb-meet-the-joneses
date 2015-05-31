@@ -238,6 +238,19 @@ main .introduction #videoheader {
   /*display: none;*/
 }
 
+main #more {
+    /*text-align: center;*/
+    
+}
+
+main .inputSection {
+    display:block;    
+}
+
+main input {
+    margin-bottom: 15px;
+}
+
 footer {
   margin: 0 0.5em;
   text-align: center;
