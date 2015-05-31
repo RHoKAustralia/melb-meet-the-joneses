@@ -1,13 +1,22 @@
 var TNJ = TNJ || {};
 TNJ.init = function () {
   $(document).ready(function () {
+
+    $(document).on('keyup', function (evt) {
+      evt.preventDefault();
+      if (evt.keyCode === 27) {
+        $('.lightbox').remove();
+      }
+    });
+
     $('#findMoreLink').on('click', function (evt) {
       evt.preventDefault();
-      // var wWidth = $(window).outerWidth();
-      // var wHeight = $(window).outerHeight();
+
+      $('html, body').animate({ scrollTop: 0 }, 'slow');
 
       $('body').append('<div class="lightbox"> \
           <section id="more" class="activity"> \
+            <a href="#" id="close">Close</a> \
             <h2>Learn more about living like The New Joneses</h2> \
             <form id="findOutMore" action="/" method="post"> \
                 <div> \
@@ -35,7 +44,10 @@ TNJ.init = function () {
           </div> \
         </div>');
 
-      // $('.lightbox').width(wWidth).height(wHeight);
+      $('#close').on('click', function (evt) {
+        evt.preventDefault();
+        $('.lightbox').remove();
+      });
 
       $('#findOutMore').on('submit', function (evt) {
         evt.preventDefault();

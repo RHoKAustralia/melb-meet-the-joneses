@@ -44,15 +44,21 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main-medium.css">
+        <link rel="stylesheet" href="css/main-large.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
         <header>
-            <a href="#"><img src="img/tnj-logo.png"></a>
-            <div class="social">
-              <a target="_blank" href="https://www.facebook.com/TheNewJoneses"><i class="fa fa-2x fa-facebook-square"></i></a>
-              <a target="_blank" href="https://twitter.com/TheNewJoneses"><i class="fa fa-2x fa-twitter-square"></i></a>
-              <a target="_blank" href="http://instagram.com/the_new_joneses/"><i class="fa fa-2x fa-instagram"></i></a>
+            <div class="full-header">
+                <a href="index.html"><img src="img/tnj-logo.png"></a>
+                <div class="social">
+                  <a target="_blank" href="https://www.facebook.com/TheNewJoneses"><i class="fa fa-2x fa-facebook-square"></i></a>
+                  <a target="_blank" href="https://twitter.com/TheNewJoneses"><i class="fa fa-2x fa-twitter-square"></i></a>
+                  <a target="_blank" href="http://instagram.com/the_new_joneses/"><i class="fa fa-2x fa-instagram"></i></a>
+                </div>
             </div>
         </header>
       <main>
@@ -71,6 +77,7 @@
       </main>
 
         <footer>
+            <a href="#" id="findMoreLink" class="find-out-more">Learn more about living like The New Joneses</a>
             <p>WE GET BY WITH A LITTLE HELP FROM OUR FRIENDS</p>
             <div class="partners-row">
                 <img src="img/partners/2015-logo-A-01.png">
@@ -101,6 +108,8 @@
         <script src="js/vendor/jquery-2.1.0.min.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">TNJ.init();</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
