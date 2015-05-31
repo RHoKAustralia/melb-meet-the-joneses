@@ -17,4 +17,8 @@
     main .introduction .description {
         max-width: 43%;
     }
+
+    .lightbox .activity {
+        width: 50%;
+    }
 }
