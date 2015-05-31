@@ -8,7 +8,7 @@ TNJ.init = function () {
 
       $('body').append('<div class="lightbox"> \
           <section id="more" class="activity"> \
-            <h2>Find out more</h2> \
+            <h2>Learn more about living like The New Joneses</h2> \
             <form id="findOutMore" action="/" method="post"> \
                 <div> \
                     <label class="inputSection">First Name</label> \
@@ -25,7 +25,7 @@ TNJ.init = function () {
                 <div> \
                     <label> \
                         <input type="checkbox" name="yesMore" checked="true" /> \
-                        I want to make a change! \
+                        I want to live better! \
                     </label> \
                 </div> \
                 <div> \

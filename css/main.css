@@ -24,22 +24,14 @@ body {
 }
 
 a {
-
-    color: #fff;
-    
-   
-
-    /*color: #00e;*/
-
+    color: #FF6E00;
 }
 
 a:visited {
-    /*color: #551a8b;*/
-    color: #fff;
+    color: #551a8b;
 }
 
 a:hover {
-    /*color: #06e;*/
     color: #4a2000;
 }
 
@@ -116,15 +108,25 @@ textarea {
 }
 
 .category {
-  /*background-color: whitesmoke;*/
   background-color: #FF6E00;
   display: inline-block;
   height: 80px;
   margin: 0 0.25em;
-  padding: 0.25em;
+  padding: 0.65em 0.25em;
   max-width: 30%;
   vertical-align: middle;
+  text-decoration: none;
   width: 100%;
+}
+
+.categories a.category,
+.categories a.category:active,
+.categories a.category:visited {
+  color: white;
+}
+
+.categories a.category:hover {
+  color: #111111;
 }
 
 .categories .category a {
