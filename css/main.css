@@ -293,6 +293,10 @@ main #videoclose {
   height: 100%;
 }
 
+.lightbox h2 {
+  margin: 0;
+}
+
 .lightbox .activity {
   background-color: white;
   height: 90%;
@@ -310,7 +314,7 @@ main #videoclose {
 .lightbox .activity form label,
 .lightbox .activity form input {
   display: block;
-  font-size: 1.4em;
+  font-size: 1.15em;
   padding: 0.5em 0;
 }
 

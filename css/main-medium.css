@@ -34,4 +34,9 @@
       margin: 0.5em;
       max-width: 100px;
     }
+
+    .lightbox .activity form label,
+    .lightbox .activity form input {
+        font-size: 1.4em;
+    }
 }
