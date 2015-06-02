@@ -303,7 +303,7 @@ main #videoclose {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 200%;
 }
 
 .lightbox h2 {
@@ -312,7 +312,7 @@ main #videoclose {
 
 .lightbox .activity {
   background-color: white;
-  height: 90%;
+  min-height: 25%;
   margin: 1em auto;
   max-width: 90%;
   padding: 2em;

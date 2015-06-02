@@ -44,6 +44,8 @@ TNJ.init = function () {
           </div> \
         </div>');
 
+      $('input[name="name"]').focus();
+
       $('#close').on('click', function (evt) {
         evt.preventDefault();
         $('.lightbox').remove();
